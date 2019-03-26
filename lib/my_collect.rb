@@ -5,4 +5,5 @@ def my_collect(array)
   yield array [1]
   i += 1 
 end 
+array.to_a
 end 
