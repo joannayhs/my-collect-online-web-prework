@@ -4,7 +4,7 @@ def my_collect(array)
   yield array [1]
   i += 1 
   new_array = []
-  new_array << "#{yield}"
+  new_array << "#{array}"
 end 
 new_array
 end 
